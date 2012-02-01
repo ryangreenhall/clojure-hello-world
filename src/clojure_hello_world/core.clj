@@ -1,1 +1,5 @@
-(ns clojure-hello-world.core)
+(ns clojure-hello-world.core
+  (:gen-class))
+
+(defn -main [& args]
+  (println "Hello World"))
